@@ -80,7 +80,7 @@ padding-left: 2rem;
   flex-flow: row wrap;
   justify-content: center;
   align-items: center;
-
+  margin-top: 8rem;
 }
 
 .usp {
@@ -88,7 +88,6 @@ padding-left: 2rem;
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
-  margin-top: 8rem;
   height: 8rem;
   width: 25.5rem;
 }
@@ -157,4 +156,39 @@ footer {
 footer img {
   height: 1.5rem;
   padding-right: 1rem;
+}
+
+/*responive <1024 px*/
+
+@media only screen and (max-width: 1024px) {
+
+html {
+    background-image: url("../images/glasses-bg.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 22rem;
+}
+
+.container {
+  width: 100%;
+}
+.header {
+    margin-top: 0rem;
+}
+.payoff {
+  font-size: 1.33rem;
+  padding: 0.75rem 4rem;
+  margin-right: 2rem;
+  margin-top: 5rem;
+}
+
+}
+
+/*responive <480 px*/
+
+@media only screen and (max-width: 400px) {
+  .payoff {
+    background-color: red;
+  }
 }
